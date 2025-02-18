@@ -2,7 +2,6 @@ package minesweeper
 
 import kotlinx.serialization.Serializable
 import kotlinx.serialization.encodeToString
-import kotlinx.serialization.decodeFromString
 import kotlinx.serialization.json.Json
 import java.io.File
 
@@ -25,7 +24,7 @@ class HighScoreManager {
             scores.filter { it.difficulty == difficulty }
                 .sortedBy { it.timeInSeconds }
                 .take(limit)
-        } catch (e: Exception) {
+        } catch (_: Exception) {
             emptyList()
         }
     }
@@ -34,7 +33,7 @@ class HighScoreManager {
         val currentScores = if (scoresFile.exists()) {
             try {
                 json.decodeFromString<List<HighScore>>(scoresFile.readText())
-            } catch (e: Exception) {
+            } catch (_: Exception) {
                 emptyList()
             }
         } else {

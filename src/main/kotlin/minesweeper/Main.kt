@@ -212,7 +212,7 @@ fun GameBoard(viewModel: GameViewModel) {
                         expanded = expanded,
                         onDismissRequest = { expanded = false }
                     ) {
-                        Difficulty.values().forEach { difficulty ->
+                        Difficulty.entries.forEach { difficulty ->
                             DropdownMenuItem(
                                 text = { Text(difficulty.displayName) },
                                 onClick = {

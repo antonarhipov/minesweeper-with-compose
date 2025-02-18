@@ -6,6 +6,11 @@
     },
     {
         "name": "Anton",
+        "timeInSeconds": 35,
+        "difficulty": "EASY"
+    },
+    {
+        "name": "Anton",
         "timeInSeconds": 42,
         "difficulty": "EASY"
     },
