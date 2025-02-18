@@ -1,0 +1,27 @@
+[
+    {
+        "name": "Anton",
+        "timeInSeconds": 22,
+        "difficulty": "EASY"
+    },
+    {
+        "name": "Anton",
+        "timeInSeconds": 42,
+        "difficulty": "EASY"
+    },
+    {
+        "name": "Anton",
+        "timeInSeconds": 46,
+        "difficulty": "EASY"
+    },
+    {
+        "name": "Anton",
+        "timeInSeconds": 55,
+        "difficulty": "MEDIUM"
+    },
+    {
+        "name": "Anton",
+        "timeInSeconds": 66,
+        "difficulty": "MEDIUM"
+    }
+]
